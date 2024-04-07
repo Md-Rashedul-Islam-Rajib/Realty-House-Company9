@@ -1,0 +1,110 @@
+ [
+    {
+      "id": "1",
+      "image": "office_building.jpg",
+      "title": "Modern Office Building",
+      "segment_name": "Office buildings",
+      "description": "State-of-the-art office building with spacious workspaces and modern amenities.",
+      "price": "$10,000,000",
+      "status": "sell",
+      "area": "25,000 sq ft",
+      "location": "Downtown Business District",
+      "facilities": ["Parking Garage", "Conference Rooms", "Fitness Center"]
+    },
+    {
+      "id": "2",
+      "image": "retail_space.jpg",
+      "title": "Prime Retail Space",
+      "segment_name": "Retail spaces",
+      "description": "High-traffic retail space in a bustling shopping district.",
+      "price": "$5,000 per month",
+      "status": "rent",
+      "area": "2,500 sq ft",
+      "location": "Main Street",
+      "facilities": ["Storefront Display", "Security System", "Storage Area"]
+    },
+    {
+      "id": "3",
+      "image": "warehouse.jpg",
+      "title": "Spacious Warehouse Facility",
+      "segment_name": "Warehouses",
+      "description": "Large warehouse space suitable for storage or distribution.",
+      "price": "$3,500,000",
+      "status": "sell",
+      "area": "50,000 sq ft",
+      "location": "Industrial Park",
+      "facilities": ["Loading Docks", "Racking Systems", "Office Space"]
+    },
+    {
+      "id": "4",
+      "image": "industrial_facility.jpg",
+      "title": "Industrial Manufacturing Plant",
+      "segment_name": "Industrial facilities",
+      "description": "Fully-equipped industrial facility with manufacturing capabilities.",
+      "price": "$15,000,000",
+      "status": "sell",
+      "area": "100,000 sq ft",
+      "location": "Industrial Zone",
+      "facilities": ["Production Line", "Warehousing", "Office Complex"]
+    },
+    {
+      "id": "5",
+      "image": "restaurant.jpg",
+      "title": "Upscale Restaurant Space",
+      "segment_name": "Restaurants",
+      "description": "Elegant restaurant space with a fully-equipped kitchen and dining area.",
+      "price": "$8,000 per month",
+      "status": "rent",
+      "area": "3,000 sq ft",
+      "location": "City Center",
+      "facilities": ["Commercial Kitchen", "Dining Area", "Bar"]
+    },
+    {
+      "id": "6",
+      "image": "entertainment_venue.jpg",
+      "title": "Versatile Entertainment Venue",
+      "segment_name": "Entertainment venues",
+      "description": "Flexible space suitable for concerts, performances, or special events.",
+      "price": "$20,000 per event",
+      "status": "rent",
+      "area": "5,000 sq ft",
+      "location": "Arts District",
+      "facilities": ["Stage", "Lighting Rig", "Sound System"]
+    },
+    {
+      "id": "7",
+      "image": "office_complex.jpg",
+      "title": "Office Complex",
+      "segment_name": "Office buildings",
+      "description": "Large office complex with multiple floors and dedicated parking.",
+      "price": "$25,000,000",
+      "status": "sell",
+      "area": "75,000 sq ft",
+      "location": "Business Park",
+      "facilities": ["Elevators", "Cafeteria", "Executive Suites"]
+    },
+    {
+      "id": "8",
+      "image": "shopping_mall.jpg",
+      "title": "Shopping Mall Space",
+      "segment_name": "Retail spaces",
+      "description": "Spacious retail space within a popular shopping mall.",
+      "price": "$12,000 per month",
+      "status": "rent",
+      "area": "5,000 sq ft",
+      "location": "Shopping Center",
+      "facilities": ["Shopfronts", "Food Court", "Escalators"]
+    },
+    {
+      "id": "9",
+      "image": "distribution_center.jpg",
+      "title": "Distribution Center",
+      "segment_name": "Warehouses",
+      "description": "State-of-the-art distribution center with automated sorting and storage systems.",
+      "price": "$20,000,000",
+      "status": "sell",
+      "area": "200,000 sq ft",
+      "location": "Logistics Hub",
+      "facilities": ["Automated Conveyors", "Cold Storage", "Office Suites"]
+    }
+  ]
