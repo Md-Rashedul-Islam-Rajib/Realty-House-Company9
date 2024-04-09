@@ -1,7 +1,7 @@
  [
     {
       "id": "1",
-      "image": "office_building.jpg",
+      "image": "https://i.ibb.co/HNdvwPG/1.jpg",
       "title": "Modern Office Building",
       "segment_name": "Office buildings",
       "description": "State-of-the-art office building with spacious workspaces and modern amenities.",
@@ -13,7 +13,7 @@
     },
     {
       "id": "2",
-      "image": "retail_space.jpg",
+      "image": "https://i.ibb.co/txDTt3D/2.jpg",
       "title": "Prime Retail Space",
       "segment_name": "Retail spaces",
       "description": "High-traffic retail space in a bustling shopping district.",
@@ -25,7 +25,7 @@
     },
     {
       "id": "3",
-      "image": "warehouse.jpg",
+      "image": "https://i.ibb.co/sJJC89h/3.jpg",
       "title": "Spacious Warehouse Facility",
       "segment_name": "Warehouses",
       "description": "Large warehouse space suitable for storage or distribution.",
@@ -37,7 +37,7 @@
     },
     {
       "id": "4",
-      "image": "industrial_facility.jpg",
+      "image": "https://i.ibb.co/hm5g5zT/4.jpg",
       "title": "Industrial Manufacturing Plant",
       "segment_name": "Industrial facilities",
       "description": "Fully-equipped industrial facility with manufacturing capabilities.",
@@ -49,7 +49,7 @@
     },
     {
       "id": "5",
-      "image": "restaurant.jpg",
+      "image": "https://i.ibb.co/dbbCPjz/5.jpg",
       "title": "Upscale Restaurant Space",
       "segment_name": "Restaurants",
       "description": "Elegant restaurant space with a fully-equipped kitchen and dining area.",
@@ -61,7 +61,7 @@
     },
     {
       "id": "6",
-      "image": "entertainment_venue.jpg",
+      "image": "https://i.ibb.co/kHy5k0V/6.jpg",
       "title": "Versatile Entertainment Venue",
       "segment_name": "Entertainment venues",
       "description": "Flexible space suitable for concerts, performances, or special events.",
@@ -73,7 +73,7 @@
     },
     {
       "id": "7",
-      "image": "office_complex.jpg",
+      "image": "https://i.ibb.co/FxQGWkc/7.jpg",
       "title": "Office Complex",
       "segment_name": "Office buildings",
       "description": "Large office complex with multiple floors and dedicated parking.",
@@ -85,7 +85,7 @@
     },
     {
       "id": "8",
-      "image": "shopping_mall.jpg",
+      "image": "https://i.ibb.co/52RLtgt/8.jpg",
       "title": "Shopping Mall Space",
       "segment_name": "Retail spaces",
       "description": "Spacious retail space within a popular shopping mall.",
@@ -97,7 +97,7 @@
     },
     {
       "id": "9",
-      "image": "distribution_center.jpg",
+      "image": "https://i.ibb.co/WDksYC4/9.jpg",
       "title": "Distribution Center",
       "segment_name": "Warehouses",
       "description": "State-of-the-art distribution center with automated sorting and storage systems.",

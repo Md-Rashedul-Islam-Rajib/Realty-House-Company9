@@ -1,6 +1,11 @@
-const { createBrowserRouter } = require("react-router-dom");
-const { default: MainLayout } = require("../layouts/MainLayout");
-const { default: Home } = require("../pages/Home");
+import { createBrowserRouter } from "react-router-dom";
+import MainLayout from "../layouts/MainLayout";
+import Home from "../pages/Home";
+import Login from "../pages/Login";
+import UpdateProfile from "../pages/UpdateProfile";
+import UserProfile from "../pages/UserProfile";
+import Register from "../pages/Register";
+
 
 
 export const router = createBrowserRouter([
@@ -11,6 +16,22 @@ export const router = createBrowserRouter([
             {
                 path: '/',
                 element: <Home></Home>
+            },
+            {
+                path: '/login',
+                element: <Login></Login>
+            },
+            {
+                path: '/updateprofile',
+                element: <UpdateProfile></UpdateProfile>
+            },
+            {
+                path: '/userprofile',
+                element: <UserProfile></UserProfile>
+            },
+            {
+                path: '/register',
+                element: <Register></Register>
             }
         ]
     }
