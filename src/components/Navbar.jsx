@@ -13,8 +13,7 @@ const Navbar = () => {
     const navlinks = <>
     <li><NavLink to='/'>Home</NavLink></li>
         
-        {user && <li><NavLink to='/userprofile'>Profile</NavLink></li>
-        }
+        
         {user && <li><NavLink to='/updateprofile'>Update Profile</NavLink></li>
         }
         {!user && <li><NavLink to='/register'>Register</NavLink></li>

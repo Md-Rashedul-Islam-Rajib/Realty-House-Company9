@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
 import { FaEye, FaEyeSlash, FaGithub } from "react-icons/fa";
+import toast, { Toaster } from 'react-hot-toast';
 
 
 
@@ -23,9 +24,13 @@ const Login = () => {
         logInUser(email, password)
         .then(result=>{
             setUser(result.user);
+            console.log(result.user);
+            toast.success("Log in Successfully as " + email);
         })
         .catch(error=> {
-            console.log(error);
+          const errorCode = error.code;
+          const errorMessage = error.message;
+          toast.error("Log in Failed. Reason :" + errorMessage);
         })
       }
 
@@ -42,6 +47,7 @@ const Login = () => {
         githubLogin()
         .then(result=> {
             setUser(result.user)
+
         })
         .catch(error => {
             console.log(error);
@@ -77,12 +83,12 @@ const Login = () => {
     <p>New here?</p>
     <Link to='/register'><p>Create an account</p></Link>
 </div>
-<hr />
+<div className="divider">Continue With</div>
 <div className="mt-4 flex">
 <FcGoogle onClick={handleGoogle} className="mx-auto h-10 w-10" />
 <FaGithub onClick={handleGithub} className="mx-auto h-10 w-10" />
 </div>
-
+<Toaster />
         </div>
     );
 };

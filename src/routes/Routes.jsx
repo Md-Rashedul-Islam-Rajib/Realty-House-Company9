@@ -3,7 +3,6 @@ import MainLayout from "../layouts/MainLayout";
 import Home from "../pages/Home";
 import Login from "../pages/Login";
 import UpdateProfile from "../pages/UpdateProfile";
-import UserProfile from "../pages/UserProfile";
 import Register from "../pages/Register";
 
 
@@ -15,7 +14,8 @@ export const router = createBrowserRouter([
         children: [
             {
                 path: '/',
-                element: <Home></Home>
+                element: <Home></Home>,
+                loader: () => fetch('/data.json'),
             },
             {
                 path: '/login',
@@ -24,10 +24,6 @@ export const router = createBrowserRouter([
             {
                 path: '/updateprofile',
                 element: <UpdateProfile></UpdateProfile>
-            },
-            {
-                path: '/userprofile',
-                element: <UserProfile></UserProfile>
             },
             {
                 path: '/register',

@@ -1,9 +1,13 @@
-import React from 'react';
+
+import Banner from '../components/Banner';
+import Estate from '../components/Estate';
 
 const Home = () => {
+    
     return (
         <div>
-            Home
+            <Banner></Banner>
+            <Estate></Estate>
         </div>
     );
 };

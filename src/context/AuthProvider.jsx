@@ -22,6 +22,10 @@ const AuthProvider = ({children}) => {
     // sign out user
     const logOutUser = () => {
         signOut(auth)
+        .then(result=>{
+            console.log(result);
+            setUser(null)
+        })
     }
 
     // google login

@@ -2,11 +2,12 @@ import { useContext, useState } from "react";
 import { IoImagesOutline } from "react-icons/io5";
 import { AuthContext } from "../context/AuthProvider";
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
+import toast, { Toaster } from 'react-hot-toast';
 
 const Register = () => {
-
+  const navigate = useNavigate();
     const {createUser} = useContext(AuthContext);
     const [showPassword, setShowPassword] = useState(false)
     const {
@@ -19,6 +20,12 @@ const Register = () => {
         createUser(email, password)
         .then(result=>{
             console.log(result.user);
+            toast.success('Account created successfully')
+            
+        //     setInterval(() => {
+        //       navigate("/login");
+        // }, 2000);
+
         })
         .catch(error=> {
             console.log(error);
@@ -64,6 +71,7 @@ const Register = () => {
     <p>Already have account?</p>
     <Link to='/login'><p>Login Here</p></Link>
 </div>
+<Toaster />
         </div>
     );
 };
