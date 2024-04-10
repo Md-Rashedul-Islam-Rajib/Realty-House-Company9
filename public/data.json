@@ -1,6 +1,6 @@
  [
     {
-      "id": "1",
+      "id": 1,
       "image": "https://i.ibb.co/HNdvwPG/1.jpg",
       "title": "Modern Office Building",
       "segment_name": "Office buildings",
@@ -12,7 +12,7 @@
       "facilities": ["Parking Garage", "Conference Rooms", "Fitness Center"]
     },
     {
-      "id": "2",
+      "id": 2,
       "image": "https://i.ibb.co/txDTt3D/2.jpg",
       "title": "Prime Retail Space",
       "segment_name": "Retail spaces",
@@ -24,9 +24,9 @@
       "facilities": ["Storefront Display", "Security System", "Storage Area"]
     },
     {
-      "id": "3",
+      "id": 3,
       "image": "https://i.ibb.co/sJJC89h/3.jpg",
-      "title": "Spacious Warehouse Facility",
+      "title": "Spacious Warehouse",
       "segment_name": "Warehouses",
       "description": "Large warehouse space suitable for storage or distribution.",
       "price": "$3,500,000",
@@ -36,7 +36,7 @@
       "facilities": ["Loading Docks", "Racking Systems", "Office Space"]
     },
     {
-      "id": "4",
+      "id": 4,
       "image": "https://i.ibb.co/hm5g5zT/4.jpg",
       "title": "Industrial Manufacturing Plant",
       "segment_name": "Industrial facilities",
@@ -48,7 +48,7 @@
       "facilities": ["Production Line", "Warehousing", "Office Complex"]
     },
     {
-      "id": "5",
+      "id": 5,
       "image": "https://i.ibb.co/dbbCPjz/5.jpg",
       "title": "Upscale Restaurant Space",
       "segment_name": "Restaurants",
@@ -60,7 +60,7 @@
       "facilities": ["Commercial Kitchen", "Dining Area", "Bar"]
     },
     {
-      "id": "6",
+      "id": 6,
       "image": "https://i.ibb.co/kHy5k0V/6.jpg",
       "title": "Versatile Entertainment Venue",
       "segment_name": "Entertainment venues",
@@ -72,7 +72,7 @@
       "facilities": ["Stage", "Lighting Rig", "Sound System"]
     },
     {
-      "id": "7",
+      "id": 7,
       "image": "https://i.ibb.co/FxQGWkc/7.jpg",
       "title": "Office Complex",
       "segment_name": "Office buildings",
@@ -84,7 +84,7 @@
       "facilities": ["Elevators", "Cafeteria", "Executive Suites"]
     },
     {
-      "id": "8",
+      "id": 8,
       "image": "https://i.ibb.co/52RLtgt/8.jpg",
       "title": "Shopping Mall Space",
       "segment_name": "Retail spaces",
@@ -96,7 +96,7 @@
       "facilities": ["Shopfronts", "Food Court", "Escalators"]
     },
     {
-      "id": "9",
+      "id": 9,
       "image": "https://i.ibb.co/WDksYC4/9.jpg",
       "title": "Distribution Center",
       "segment_name": "Warehouses",

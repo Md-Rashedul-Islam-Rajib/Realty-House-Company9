@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import Login from "../pages/Login";
 import UpdateProfile from "../pages/UpdateProfile";
 import Register from "../pages/Register";
+import EstateDetails from "../pages/EstateDetails";
 
 
 
@@ -16,6 +17,12 @@ export const router = createBrowserRouter([
                 path: '/',
                 element: <Home></Home>,
                 loader: () => fetch('/data.json'),
+            },
+            {
+                path: '/estatedetails/:id',
+                element: <EstateDetails></EstateDetails>,
+                loader: () => fetch('/data.json'),
+
             },
             {
                 path: '/login',

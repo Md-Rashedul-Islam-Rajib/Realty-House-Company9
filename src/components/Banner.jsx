@@ -26,7 +26,7 @@ const Banner = () => {
         loop={true}
       >
         <SwiperSlide>
-        <div className="bg-[url('../../src/assets/slide6.jpg')] h-[450px] bg-no-repeat bg-cover bg-center flex gap-32 rounded-lg">
+        <div className="bg-[url('../../src/assets/slide6.jpg')] h-72 md:h-96 lg:h-[450px] bg-no-repeat bg-cover bg-center flex gap-32 rounded-lg">
         <div 
         data-aos="fade-down"
         data-aos-duration="500"
@@ -61,7 +61,7 @@ const Banner = () => {
         <div className="flex-1"></div>
       </div>
         </SwiperSlide>
-        <SwiperSlide><div className="bg-[url('../../src/assets/slide5.jpg')] h-[450px] bg-no-repeat bg-cover bg-center flex gap-32 rounded-lg">
+        <SwiperSlide><div className="bg-[url('../../src/assets/slide5.jpg')] h-72 md:h-96 lg:h-[450px] bg-no-repeat bg-cover bg-center flex gap-32 rounded-lg">
         <div 
         data-aos="fade-down"
         data-aos-duration="500"
@@ -93,7 +93,7 @@ const Banner = () => {
         </div>
         <div className="flex-1"></div>
       </div></SwiperSlide>
-        <SwiperSlide><div className="bg-[url('../../src/assets/slide4.jpg')] h-[450px] bg-no-repeat bg-cover bg-center flex gap-32 rounded-lg">
+        <SwiperSlide><div className="bg-[url('../../src/assets/slide4.jpg')] h-72 md:h-96 lg:h-[450px] bg-no-repeat bg-cover bg-center flex gap-32 rounded-lg">
         <div 
         data-aos="fade-down"
         data-aos-duration="500"
@@ -125,7 +125,7 @@ const Banner = () => {
         </div>
         <div className="flex-1"></div>
       </div></SwiperSlide>
-        <SwiperSlide><div className="bg-[url('../../src/assets/slide3.jpg')] h-[450px] bg-no-repeat bg-cover bg-center flex gap-32 rounded-lg">
+        <SwiperSlide><div className="bg-[url('../../src/assets/slide3.jpg')] h-72 md:h-96 lg:h-[450px] bg-no-repeat bg-cover bg-center flex gap-32 rounded-lg">
         <div 
         data-aos="fade-down"
         data-aos-duration="500"
@@ -157,7 +157,7 @@ const Banner = () => {
         </div>
         <div className="flex-1"></div>
       </div></SwiperSlide>
-        <SwiperSlide><div className="bg-[url('../../src/assets/slide2.jpg')] h-[450px] bg-no-repeat bg-cover bg-center flex gap-32 rounded-lg">
+        <SwiperSlide><div className="bg-[url('../../src/assets/slide2.jpg')] h-72 md:h-96 lg:h-[450px] bg-no-repeat bg-cover bg-center flex gap-32 rounded-lg">
         <div 
         data-aos="fade-down"
         data-aos-duration="500"
@@ -189,7 +189,7 @@ const Banner = () => {
         </div>
         <div className="flex-1"></div>
       </div></SwiperSlide>
-        <SwiperSlide><div className="bg-[url('../../src/assets/slide1.jpg')] h-[450px] bg-no-repeat bg-cover bg-center flex gap-32 rounded-lg">
+        <SwiperSlide><div className="bg-[url('../../src/assets/slide1.jpg')] h-72 md:h-96 lg:h-[450px] bg-no-repeat bg-cover bg-center flex gap-32 rounded-lg">
         <div 
         data-aos="fade-down"
         data-aos-duration="500"
