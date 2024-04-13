@@ -13,7 +13,7 @@ const EstateCard = ({ estate }) => {
     status,
     area,
     location,
-    facilities,
+    facilities
   } = estate;
   return (
     <div className="flex justify-center border mt-8 shadow-xl p-2 md:p-4">

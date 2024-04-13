@@ -6,11 +6,13 @@ const EstateDetails = () => {
  const intId = parseInt(id);
     const data = useLoaderData();
 const estate = data.find(singleData=> singleData.id === intId)
-console.log(estate);
+const {image} = estate;
     
     return (
         <div>
-            {id}
+            <div>
+                <img src={image} alt="" />
+            </div>
         </div>
     );
 };
