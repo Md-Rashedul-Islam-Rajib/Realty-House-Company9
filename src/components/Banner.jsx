@@ -26,7 +26,7 @@ const Banner = () => {
         loop={true}
       >
         <SwiperSlide>
-        <div className="bg-[url('../../src/assets/slide6.jpg')] h-72 md:h-96 lg:h-[450px] bg-no-repeat bg-cover bg-center flex gap-32 rounded-lg">
+        <div className="bg-[url('/slide6.jpg')] h-72 md:h-96 lg:h-[450px] bg-no-repeat bg-cover bg-center flex gap-32 rounded-lg">
         <div 
         data-aos="fade-down"
         data-aos-duration="500"
@@ -61,7 +61,7 @@ const Banner = () => {
         <div className="flex-1"></div>
       </div>
         </SwiperSlide>
-        <SwiperSlide><div className="bg-[url('../../src/assets/slide5.jpg')] h-72 md:h-96 lg:h-[450px] bg-no-repeat bg-cover bg-center flex gap-32 rounded-lg">
+        <SwiperSlide><div className="bg-[url('/slide5.jpg')] h-72 md:h-96 lg:h-[450px] bg-no-repeat bg-cover bg-center flex gap-32 rounded-lg">
         <div 
         data-aos="fade-down"
         data-aos-duration="500"
@@ -93,7 +93,7 @@ const Banner = () => {
         </div>
         <div className="flex-1"></div>
       </div></SwiperSlide>
-        <SwiperSlide><div className="bg-[url('../../src/assets/slide4.jpg')] h-72 md:h-96 lg:h-[450px] bg-no-repeat bg-cover bg-center flex gap-32 rounded-lg">
+        <SwiperSlide><div className="bg-[url('/slide4.jpg')] h-72 md:h-96 lg:h-[450px] bg-no-repeat bg-cover bg-center flex gap-32 rounded-lg">
         <div 
         data-aos="fade-down"
         data-aos-duration="500"
@@ -125,7 +125,7 @@ const Banner = () => {
         </div>
         <div className="flex-1"></div>
       </div></SwiperSlide>
-        <SwiperSlide><div className="bg-[url('../../src/assets/slide3.jpg')] h-72 md:h-96 lg:h-[450px] bg-no-repeat bg-cover bg-center flex gap-32 rounded-lg">
+        <SwiperSlide><div className="bg-[url('/slide3.jpg')] h-72 md:h-96 lg:h-[450px] bg-no-repeat bg-cover bg-center flex gap-32 rounded-lg">
         <div 
         data-aos="fade-down"
         data-aos-duration="500"
@@ -157,7 +157,7 @@ const Banner = () => {
         </div>
         <div className="flex-1"></div>
       </div></SwiperSlide>
-        <SwiperSlide><div className="bg-[url('../../src/assets/slide2.jpg')] h-72 md:h-96 lg:h-[450px] bg-no-repeat bg-cover bg-center flex gap-32 rounded-lg">
+        <SwiperSlide><div className="bg-[url('/slide2.jpg')] h-72 md:h-96 lg:h-[450px] bg-no-repeat bg-cover bg-center flex gap-32 rounded-lg">
         <div 
         data-aos="fade-down"
         data-aos-duration="500"
@@ -189,7 +189,7 @@ const Banner = () => {
         </div>
         <div className="flex-1"></div>
       </div></SwiperSlide>
-        <SwiperSlide><div className="bg-[url('../../src/assets/slide1.jpg')] h-72 md:h-96 lg:h-[450px] bg-no-repeat bg-cover bg-center flex gap-32 rounded-lg">
+        <SwiperSlide><div className="bg-[url('/slide1.jpg')] h-72 md:h-96 lg:h-[450px] bg-no-repeat bg-cover bg-center flex gap-32 rounded-lg">
         <div 
         data-aos="fade-down"
         data-aos-duration="500"
@@ -222,40 +222,7 @@ const Banner = () => {
         <div className="flex-1"></div>
       </div></SwiperSlide>
       </Swiper>
-      {/* <div className="bg-[url('../../src/assets/slide1.jpg')] h-96 bg-no-repeat bg-cover bg-center flex gap-32">
-        <div 
-        data-aos="fade-down"
-        data-aos-duration="500"
-        className="flex-1 bg-[#375CAA] bg-opacity-90 flex flex-col md:gap-4 justify-center text-white">
-          <h2
-            data-aos="fade-down"
-            data-aos-anchor-placement="top-bottom"
-            data-aos-duration="1500"
-            className="md:text-4xl font-bold md:ml-20 md:mr-5"
-          >
-            Find Your Dream Home: Explore Our Listings
-          </h2>
-          <p 
-          data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom"
-          data-aos-duration="1500"
-          className="font-medium md:ml-20">
-            Discover Your Dream Home: Browse our extensive <br /> collection of
-            premium properties from cozy starter <br /> homes to luxurious
-            estates
-          </p>
-          <div 
-          data-aos="zoom-in"
-          data-aos-anchor-placement="top-bottom"
-          data-aos-duration="1500"
-          >
-            <button className="btn btn-outline border text-white border-white flex justify-start md:ml-20">
-              Get Started
-            </button>
-          </div>
-        </div>
-        <div className="flex-1"></div>
-      </div> */}
+      
     </div>
   );
 };

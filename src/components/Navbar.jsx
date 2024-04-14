@@ -17,6 +17,8 @@ const Navbar = () => {
         
         {user && <li><NavLink to='/updateprofile'>Update Profile</NavLink></li>
         }
+        {user && <li><NavLink to='/userprofile'>User Profile</NavLink></li>
+        }
         {!user && <li><NavLink to='/register'>Register</NavLink></li>
         }
         
@@ -45,16 +47,16 @@ const Navbar = () => {
       user ? <div className='flex gap-4'>
         <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar" >
         <div className="w-10 rounded-full">
-          <img title={user? user.displayName : "Name not Found"} alt="Tailwind CSS Navbar component" src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+          <img title={user? user?.displayName : "Name not Found"} alt="Tailwind CSS Navbar component" src={user?.photoURL ? user?.photoURL : "https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"} />
         </div>
       </div>
       <div>
-      <button onClick={handleSignOut} className='btn bg-[#024CB5] text-white'>Log Out</button>
+      <button onClick={handleSignOut} className='btn bg-[#044FB2] text-white'>Log Out</button>
       </div> 
       </div> 
       
       :
-      <Link to='/login' className="btn bg-[#024CB5] text-white">Login</Link>
+      <Link to='/login' className="btn bg-[#044FB2] text-white">Login</Link>
     }
   </div>
 </div>

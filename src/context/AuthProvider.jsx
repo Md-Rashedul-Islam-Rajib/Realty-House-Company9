@@ -7,7 +7,7 @@ import auth from "../firebase/firebase.config";
 export const AuthContext = createContext(null)
 const AuthProvider = ({children}) => {
 
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
     const [user, setUser] = useState(null);
     
     // register user
@@ -50,8 +50,8 @@ const githubLogin = () => {
     useEffect(()=>{
         const unsubscribe = onAuthStateChanged(auth, (currentUser)=>{
             if(currentUser){
-                setLoading(false)
                 setUser(currentUser)
+                setLoading(false)
                 console.log(currentUser);
             }
         });
@@ -67,7 +67,8 @@ const githubLogin = () => {
         logInUser,
         logOutUser,
         googleLogin,
-        githubLogin
+        githubLogin,
+        loading
 }
     return (
         <AuthContext.Provider value={authInfo}>

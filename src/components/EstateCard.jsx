@@ -37,7 +37,7 @@ const EstateCard = ({ estate }) => {
         <div className="flex justify-between mt-8">
         <div className="w-2/3">
         <p className="text-black text-sm font-semibold mb-4">{area}</p>
-        {facilities.map((item,idx)=><span className="mr-1 btn btn-xs bg-[#7C81C9]" key={idx}>{item}</span>)}
+        {facilities.map((item,idx)=><span className="mr-1 btn btn-xs bg-[#C2E7C9]" key={idx}>{item}</span>)}
         </div>
         <div className="flex justify-center items-center">
           <Link to={`estatedetails/${id}`}>

@@ -5,6 +5,8 @@ import Login from "../pages/Login";
 import UpdateProfile from "../pages/UpdateProfile";
 import Register from "../pages/Register";
 import EstateDetails from "../pages/EstateDetails";
+import UserProfile from "../pages/UserProfile";
+import PrivateRoute from "../components/PrivateRoute";
 
 
 
@@ -20,7 +22,9 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/estatedetails/:id',
-                element: <EstateDetails></EstateDetails>,
+                element: <PrivateRoute>
+                    <EstateDetails></EstateDetails>
+                </PrivateRoute>,
                 loader: () => fetch('/data.json'),
 
             },
@@ -29,8 +33,17 @@ export const router = createBrowserRouter([
                 element: <Login></Login>
             },
             {
+                path: '/userprofile',
+                element: <PrivateRoute>
+                <UserProfile></UserProfile>
+                </PrivateRoute>
+
+            },
+            {
                 path: '/updateprofile',
-                element: <UpdateProfile></UpdateProfile>
+                element: <PrivateRoute>
+                <UpdateProfile></UpdateProfile>
+                </PrivateRoute>
             },
             {
                 path: '/register',

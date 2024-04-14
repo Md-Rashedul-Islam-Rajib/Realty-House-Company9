@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import { AuthContext } from "../context/AuthProvider";
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
 import { FaEye, FaEyeSlash, FaGithub } from "react-icons/fa";
 import toast, { Toaster } from 'react-hot-toast';
@@ -13,19 +13,30 @@ const Login = () => {
 
   const [showPassword, setShowPassword] = useState(false);
 
-    const {logInUser,setUser,googleLogin,githubLogin} = useContext(AuthContext);
+    const {logInUser,setUser,googleLogin,githubLogin,user} = useContext(AuthContext);
+
+    const location = useLocation();
+    const navigate = useNavigate();
+    console.log(location);
+    const destination = location?.state || '/';
+
+
     const {
         register,
         handleSubmit,
         formState: { errors },
       } = useForm()
+
+
       const onSubmit= (data) => {
         const {email, password} = data;
         logInUser(email, password)
         .then(result=>{
             setUser(result.user);
-            console.log(result.user);
             toast.success("Log in Successfully as " + email);
+            
+              navigate(destination)
+            
         })
         .catch(error=> {
           const errorCode = error.code;
@@ -38,6 +49,10 @@ const Login = () => {
         googleLogin()
         .then(result=> {
             setUser(result.user)
+          toast.success('Log in Successfully as ' + result.user.email)
+           
+              navigate(destination)
+            
         })
         .catch(error => {
             console.log(error);
@@ -47,6 +62,11 @@ const Login = () => {
         githubLogin()
         .then(result=> {
             setUser(result.user)
+          toast.success('Log in successfully with Github' )
+
+           
+              navigate(destination)
+            
 
         })
         .catch(error => {
@@ -54,7 +74,7 @@ const Login = () => {
         })
       }
     return (
-        <div className='p-2 md:w-2/5 mx-auto border rounded-lg p-2'>
+        <div className='md:w-2/5 mx-auto border rounded-lg p-2'>
 
 <form onSubmit={handleSubmit(onSubmit)}>
 
