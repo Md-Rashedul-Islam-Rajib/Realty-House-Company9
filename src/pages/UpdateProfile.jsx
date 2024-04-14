@@ -5,6 +5,7 @@ import toast, { Toaster } from 'react-hot-toast';
 import { AuthContext } from "../context/AuthProvider";
 import { updateProfile } from "firebase/auth";
 import auth from "../firebase/firebase.config";
+import { Helmet } from "react-helmet-async";
 
 const UpdateProfile = () => {
     const {user} = useContext(AuthContext);
@@ -32,6 +33,9 @@ console.log(user);
         }
     return (
         <div>
+          <Helmet> 
+            <title>Update Profile</title>
+          </Helmet>
             <div className="text-center text-xl font-bold mb-4">
             <h2>User Information</h2>
             </div>

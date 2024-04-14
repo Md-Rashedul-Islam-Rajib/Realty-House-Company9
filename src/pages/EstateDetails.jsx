@@ -5,6 +5,7 @@ import { FaLandmark, FaRegCalendarAlt } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";
 
 import { IoMdArrowRoundBack } from "react-icons/io";
+import { Helmet } from "react-helmet-async";
 
 const EstateDetails = () => {
   const { id } = useParams();
@@ -15,6 +16,9 @@ const EstateDetails = () => {
 
   return (
     <div>
+      <Helmet> 
+            <title>Estate Details</title>
+          </Helmet>
       <p className="my-4"> <Link to='/' className="flex items-center"><IoMdArrowRoundBack /> <span className="font-semibold"> Estate details /</span> Home</Link> </p>
       <div className="grid grid-cols-4 lg:gap-10 lg:mx-16">
         <div className="col-span-3">
