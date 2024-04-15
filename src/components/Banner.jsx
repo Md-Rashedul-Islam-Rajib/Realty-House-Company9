@@ -30,12 +30,12 @@ const Banner = () => {
         <div 
         data-aos="fade-down"
         data-aos-duration="500"
-        className="flex-1 bg-[#375CAA] rounded-l-lg bg-opacity-90 flex flex-col md:gap-4 justify-center text-white">
+        className="flex-1 bg-[#375CAA] rounded-lg bg-opacity-90 flex flex-col md:gap-1 lg:gap-4 justify-center text-white">
           <h2
             data-aos="fade-down"
             data-aos-anchor-placement="top-bottom"
             data-aos-duration="1500"
-            className="md:text-4xl font-bold md:ml-20 md:mr-5"
+            className="text-sm md:text-2xl lg:text-4xl font-bold ml-4 md:ml-10 lg:ml-20 md:mr-5"
           >
             Find Your Dream Home: Explore Our Listings
           </h2>
@@ -43,7 +43,7 @@ const Banner = () => {
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="1500"
-          className="font-medium md:ml-20">
+          className="text-xs md:text-base font-medium ml-4 mt-1 md:ml-10 lg:ml-20">
             Discover Your Dream Home: Browse our extensive <br /> collection of
             premium properties from cozy starter <br /> homes to luxurious
             estates
@@ -53,7 +53,7 @@ const Banner = () => {
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="1500"
           >
-            <button className="btn btn-outline border text-white border-white flex justify-start md:ml-20">
+            <button className="btn btn-xs lg:btn-md btn-outline border text-white border-white flex justify-start mt-1 ml-4 md:ml-10 lg:ml-20">
               Get Started
             </button>
           </div>
@@ -65,12 +65,12 @@ const Banner = () => {
         <div 
         data-aos="fade-down"
         data-aos-duration="500"
-        className="flex-1 bg-[#375CAA] rounded-l-lg bg-opacity-90 flex flex-col md:gap-4 justify-center text-white">
+        className="flex-1 bg-[#375CAA] rounded-lg bg-opacity-90 flex flex-col md:gap-1 lg:gap-4 justify-center text-white">
           <h2
             data-aos="fade-down"
             data-aos-anchor-placement="top-bottom"
             data-aos-duration="1500"
-            className="md:text-4xl font-bold md:ml-20 md:mr-5"
+            className="text-sm md:text-2xl lg:text-4xl font-bold ml-4 md:ml-10 lg:ml-20 md:mr-5"
           >
             Unlocking Your Perfect Property: Browse Our Real Estate Selection
           </h2>
@@ -78,7 +78,7 @@ const Banner = () => {
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="1500"
-          className="font-medium md:ml-20">
+          className="text-xs md:text-base font-medium ml-4 mt-1 md:ml-10 lg:ml-20">
             Investment Opportunities Await: Explore a diverse <br />range of investment properties, offering high potential returns <br /> and strategic locations
           </p>
           <div 
@@ -86,7 +86,7 @@ const Banner = () => {
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="1500"
           >
-            <button className="btn btn-outline border text-white border-white flex justify-start md:ml-20">
+            <button className="btn btn-xs lg:btn-md btn-outline border text-white border-white flex justify-start mt-1 ml-4 md:ml-10 lg:ml-20">
               Get Started
             </button>
           </div>
@@ -97,12 +97,12 @@ const Banner = () => {
         <div 
         data-aos="fade-down"
         data-aos-duration="500"
-        className="flex-1 bg-[#375CAA] rounded-l-lg bg-opacity-90 flex flex-col md:gap-4 justify-center text-white">
+        className="flex-1 bg-[#375CAA] rounded-lg bg-opacity-90 flex flex-col md:gap-1 lg:gap-4 justify-center text-white">
           <h2
             data-aos="fade-down"
             data-aos-anchor-placement="top-bottom"
             data-aos-duration="1500"
-            className="md:text-4xl font-bold md:ml-20 md:mr-5"
+            className="text-sm md:text-2xl lg:text-4xl font-bold ml-4 md:ml-10 lg:ml-20 md:mr-5"
           >
             Your Key to Exceptional Living: Discover Our Featured Listings
           </h2>
@@ -110,7 +110,7 @@ const Banner = () => {
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="1500"
-          className="font-medium md:ml-20">
+          className="text-xs md:text-base font-medium ml-4 mt-1 md:ml-10 lg:ml-20">
             Your Gateway to Urban Living: Immerse yourself in <br /> vibrant city life with our selection of modern condos and <br /> apartments in bustling metropolitan areas
           </p>
           <div 
@@ -118,7 +118,7 @@ const Banner = () => {
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="1500"
           >
-            <button className="btn btn-outline border text-white border-white flex justify-start md:ml-20">
+            <button className="btn btn-xs lg:btn-md btn-outline border text-white border-white flex justify-start mt-1 ml-4 md:ml-10 lg:ml-20">
               Get Started
             </button>
           </div>
@@ -129,12 +129,12 @@ const Banner = () => {
         <div 
         data-aos="fade-down"
         data-aos-duration="500"
-        className="flex-1 bg-[#375CAA] rounded-l-lg bg-opacity-90 flex flex-col md:gap-4 justify-center text-white">
+        className="flex-1 bg-[#375CAA] rounded-lg bg-opacity-90 flex flex-col md:gap-1 lg:gap-4 justify-center text-white">
           <h2
             data-aos="fade-down"
             data-aos-anchor-placement="top-bottom"
             data-aos-duration="1500"
-            className="md:text-4xl font-bold md:ml-20 md:mr-5"
+            className="text-sm md:text-2xl lg:text-4xl font-bold ml-4 md:ml-10 lg:ml-20 md:mr-5"
           >
             Navigating the Real Estate Landscape: Start Your Search Here
           </h2>
@@ -142,7 +142,7 @@ const Banner = () => {
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="1500"
-          className="font-medium md:ml-20">
+          className="text-xs md:text-base font-medium ml-4 mt-1 md:ml-10 lg:ml-20">
             Escape to Tranquility: Find solace in our serene <br /> countryside retreats, nestled amidst picturesque <br /> landscapes and natural beauty
           </p>
           <div 
@@ -150,7 +150,7 @@ const Banner = () => {
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="1500"
           >
-            <button className="btn btn-outline border text-white border-white flex justify-start md:ml-20">
+            <button className="btn btn-xs lg:btn-md btn-outline border text-white border-white flex justify-start mt-1 ml-4 md:ml-10 lg:ml-20">
               Get Started
             </button>
           </div>
@@ -161,12 +161,12 @@ const Banner = () => {
         <div 
         data-aos="fade-down"
         data-aos-duration="500"
-        className="flex-1 bg-[#375CAA] rounded-l-lg bg-opacity-90 flex flex-col md:gap-4 justify-center text-white">
+        className="flex-1 bg-[#375CAA] rounded-lg bg-opacity-90 flex flex-col md:gap-1 lg:gap-4 justify-center text-white">
           <h2
             data-aos="fade-down"
             data-aos-anchor-placement="top-bottom"
             data-aos-duration="1500"
-            className="md:text-4xl font-bold md:ml-20 md:mr-5"
+            className="text-sm md:text-2xl lg:text-4xl font-bold ml-4 md:ml-10 lg:ml-20 md:mr-5"
           >
             Investing in Your Future: Explore Properties for Sale
           </h2>
@@ -174,7 +174,7 @@ const Banner = () => {
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="1500"
-          className="font-medium md:ml-20">
+          className="text-xs md:text-base font-medium ml-4 mt-1 md:ml-10 lg:ml-20">
             Luxury Living Redefined: Experience opulence like never <br /> before with our exclusive portfolio of upscale mansions <br /> and waterfront residences
           </p>
           <div 
@@ -182,7 +182,7 @@ const Banner = () => {
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="1500"
           >
-            <button className="btn btn-outline border text-white border-white flex justify-start md:ml-20">
+            <button className="btn btn-xs lg:btn-md btn-outline border text-white border-white flex justify-start mt-1 ml-4 md:ml-10 lg:ml-20">
               Get Started
             </button>
           </div>
@@ -193,12 +193,12 @@ const Banner = () => {
         <div 
         data-aos="fade-down"
         data-aos-duration="500"
-        className="flex-1 bg-[#375CAA] rounded-l-lg bg-opacity-90 flex flex-col md:gap-4 justify-center text-white">
+        className="flex-1 bg-[#375CAA] rounded-lg bg-opacity-90 flex flex-col md:gap-1 lg:gap-4 justify-center text-white">
           <h2
             data-aos="fade-down"
             data-aos-anchor-placement="top-bottom"
             data-aos-duration="1500"
-            className="md:text-4xl font-bold md:ml-20 md:mr-5"
+            className="text-sm md:text-2xl lg:text-4xl font-bold ml-4 md:ml-10 lg:ml-20 md:mr-5"
           >
             From House to Home: Explore Our Diverse Real Estate Portfolio
           </h2>
@@ -206,7 +206,7 @@ const Banner = () => {
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="1500"
-          className="font-medium md:ml-20">
+          className="text-xs md:text-base font-medium ml-4 mt-1 md:ml-10 lg:ml-20">
             Your Perfect Space Awaits: Whether you seek a quaint <br /> suburban haven or a chic urban loft, we have the ideal <br /> property to suit your lifestyle and preferences
           </p>
           <div 
@@ -214,7 +214,7 @@ const Banner = () => {
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="1500"
           >
-            <button className="btn btn-outline border text-white border-white flex justify-start md:ml-20">
+            <button className="btn btn-xs lg:btn-md btn-outline border text-white border-white flex justify-start mt-1 ml-4 md:ml-10 lg:ml-20">
               Get Started
             </button>
           </div>

@@ -8,6 +8,7 @@ import EstateDetails from "../pages/EstateDetails";
 import UserProfile from "../pages/UserProfile";
 import PrivateRoute from "../components/PrivateRoute";
 import ErrorPage from "../pages/ErrorPage";
+import Services from "../pages/Services";
 
 
 
@@ -29,6 +30,12 @@ export const router = createBrowserRouter([
                 </PrivateRoute>,
                 loader: () => fetch('/data.json'),
 
+            },
+            {
+                path: '/services',
+                element: <PrivateRoute>
+                    <Services></Services>
+                </PrivateRoute>
             },
             {
                 path: '/login',

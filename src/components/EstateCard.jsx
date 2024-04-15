@@ -16,7 +16,7 @@ const EstateCard = ({ estate }) => {
     facilities
   } = estate;
   return (
-    <div className="flex justify-center border mt-8 shadow-xl p-2 md:p-4">
+    <div className="flex justify-center border border-[#dbdce4] mt-8 shadow-xl p-4 m-2 md:m-20 lg:m-2 rounded-xl">
       <div>
         <div className="h-60 w-96 relative mx-auto">
           <img className="object-cover rounded-lg " src={image} alt="" />
@@ -41,7 +41,7 @@ const EstateCard = ({ estate }) => {
         </div>
         <div className="flex justify-center items-center">
           <Link to={`estatedetails/${id}`}>
-          <button className="btn bg-[#024CB5] text-white">View Details</button>
+          <button className="btn btn-sm md:btn-md bg-[#024CB5] text-white">View Details</button>
           </Link>
           </div>
         </div>
