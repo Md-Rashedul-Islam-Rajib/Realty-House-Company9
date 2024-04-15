@@ -11,7 +11,7 @@ const UserProfile = () => {
             <Helmet> 
             <title>Profile</title>
           </Helmet>
-            <div className="w-60 h-60 mx-auto">
+            <div className="max-w-96 mx-auto">
             <img className="rounded-xl" src={user.photoURL} alt="" />
             </div>
             <div className="text-center font-medium flex flex-col gap-4 my-4">

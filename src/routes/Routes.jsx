@@ -7,6 +7,7 @@ import Register from "../pages/Register";
 import EstateDetails from "../pages/EstateDetails";
 import UserProfile from "../pages/UserProfile";
 import PrivateRoute from "../components/PrivateRoute";
+import ErrorPage from "../pages/ErrorPage";
 
 
 
@@ -14,6 +15,7 @@ export const router = createBrowserRouter([
     {
         path: '/',
         element: <MainLayout></MainLayout>,
+        errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
                 path: '/',

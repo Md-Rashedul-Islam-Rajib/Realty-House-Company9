@@ -6,11 +6,12 @@ import { AuthContext } from "../context/AuthProvider";
 import { updateProfile } from "firebase/auth";
 import auth from "../firebase/firebase.config";
 import { Helmet } from "react-helmet-async";
+import { Navigate, useNavigate } from "react-router-dom";
 
 const UpdateProfile = () => {
-    const {user} = useContext(AuthContext);
-console.log(user);
-    const [showPassword, setShowPassword] = useState(false)
+    const {user,setUser} = useContext(AuthContext);
+const navigate = useNavigate();
+ 
     const {
         register,
         handleSubmit,
@@ -24,8 +25,8 @@ console.log(user);
           displayName: name,
            photoURL: photo
         }).then(() => {
-          // Profile updated!
-          // ...
+          setUser({...user,displayName:name,photoURL:photo})
+          navigate('/')
         }).catch((error) => {
           // An error occurred
           // ...

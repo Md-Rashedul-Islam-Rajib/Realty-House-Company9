@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../context/AuthProvider";
 import { useForm } from "react-hook-form";
 import { Link, useLocation, useNavigate } from "react-router-dom";
@@ -30,7 +30,9 @@ const Login = () => {
       .then((result) => {
         setUser(result.user);
         toast.success("Log in Successfully as " + email);
-
+       
+        // const timedelay= setTimeout(navigate(destination),6000);
+          
         navigate(destination);
       })
       .catch((error) => {
@@ -133,8 +135,8 @@ const Login = () => {
       </div>
       <div className="divider">Continue With</div>
       <div className="mt-4 flex">
-        <FcGoogle onClick={handleGoogle} className="mx-auto h-10 w-10" />
-        <FaGithub onClick={handleGithub} className="mx-auto h-10 w-10" />
+        <FcGoogle onClick={handleGoogle} className="mx-auto h-10 w-10 cursor-pointer" />
+        <FaGithub onClick={handleGithub} className="mx-auto h-10 w-10 cursor-pointer" />
       </div>
       <Toaster />
     </div>
