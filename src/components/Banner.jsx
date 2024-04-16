@@ -30,7 +30,7 @@ const Banner = () => {
         <div 
         data-aos="fade-down"
         data-aos-duration="500"
-        className="flex-1 bg-[#375CAA] rounded-lg bg-opacity-90 flex flex-col md:gap-1 lg:gap-4 justify-center text-white">
+        className="flex-1 bg-[#375CAA] rounded-l-lg bg-opacity-90 flex flex-col md:gap-1 lg:gap-4 justify-center text-white">
           <h2
             data-aos="fade-down"
             data-aos-anchor-placement="top-bottom"
@@ -65,7 +65,7 @@ const Banner = () => {
         <div 
         data-aos="fade-down"
         data-aos-duration="500"
-        className="flex-1 bg-[#375CAA] rounded-lg bg-opacity-90 flex flex-col md:gap-1 lg:gap-4 justify-center text-white">
+        className="flex-1 bg-[#375CAA] rounded-l-lg bg-opacity-90 flex flex-col md:gap-1 lg:gap-4 justify-center text-white">
           <h2
             data-aos="fade-down"
             data-aos-anchor-placement="top-bottom"
@@ -97,7 +97,7 @@ const Banner = () => {
         <div 
         data-aos="fade-down"
         data-aos-duration="500"
-        className="flex-1 bg-[#375CAA] rounded-lg bg-opacity-90 flex flex-col md:gap-1 lg:gap-4 justify-center text-white">
+        className="flex-1 bg-[#375CAA] rounded-l-lg bg-opacity-90 flex flex-col md:gap-1 lg:gap-4 justify-center text-white">
           <h2
             data-aos="fade-down"
             data-aos-anchor-placement="top-bottom"
@@ -129,7 +129,7 @@ const Banner = () => {
         <div 
         data-aos="fade-down"
         data-aos-duration="500"
-        className="flex-1 bg-[#375CAA] rounded-lg bg-opacity-90 flex flex-col md:gap-1 lg:gap-4 justify-center text-white">
+        className="flex-1 bg-[#375CAA] rounded-l-lg bg-opacity-90 flex flex-col md:gap-1 lg:gap-4 justify-center text-white">
           <h2
             data-aos="fade-down"
             data-aos-anchor-placement="top-bottom"
@@ -161,7 +161,7 @@ const Banner = () => {
         <div 
         data-aos="fade-down"
         data-aos-duration="500"
-        className="flex-1 bg-[#375CAA] rounded-lg bg-opacity-90 flex flex-col md:gap-1 lg:gap-4 justify-center text-white">
+        className="flex-1 bg-[#375CAA] rounded-l-lg bg-opacity-90 flex flex-col md:gap-1 lg:gap-4 justify-center text-white">
           <h2
             data-aos="fade-down"
             data-aos-anchor-placement="top-bottom"
@@ -193,7 +193,7 @@ const Banner = () => {
         <div 
         data-aos="fade-down"
         data-aos-duration="500"
-        className="flex-1 bg-[#375CAA] rounded-lg bg-opacity-90 flex flex-col md:gap-1 lg:gap-4 justify-center text-white">
+        className="flex-1 bg-[#375CAA] rounded-l-lg bg-opacity-90 flex flex-col md:gap-1 lg:gap-4 justify-center text-white">
           <h2
             data-aos="fade-down"
             data-aos-anchor-placement="top-bottom"

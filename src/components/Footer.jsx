@@ -6,7 +6,7 @@ import logo from '../assets/logo.png'
 const Footer = () => {
     return (
       <footer className="footer p-10 bg-base-200 text-base-content">
-      <aside>
+      <aside className='mx-auto'>
         <img src={logo} alt="" />
         <p>Realty House Company Ltd.<br/>Providing reliable tech since 1992</p>
       </aside> 
