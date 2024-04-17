@@ -4,10 +4,15 @@ import { GiCrane } from "react-icons/gi";
 import { FaTools } from "react-icons/fa";
 import { LiaMapMarkedAltSolid } from "react-icons/lia";
 import { RiCustomerService2Line } from "react-icons/ri";
+import 'animate.css';
+import { Helmet } from "react-helmet-async";
 
 const Services = () => {
     return (
-        <div>
+        <div className="animate__animated animate__slideInLeft">
+            <Helmet> 
+            <title>Services | Realty House Company</title>
+          </Helmet>
              <h2 className='text-center text-4xl font-bold mt-6'>Our Services</h2>
              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-16'>
             

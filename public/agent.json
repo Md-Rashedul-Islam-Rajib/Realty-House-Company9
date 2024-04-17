@@ -1,0 +1,77 @@
+[
+      {
+        "id": 1,
+        "name": "Christy P.Fox",
+        "image": "https://i.ibb.co/DKmmGV0/agent1.png",
+        "address": "123 Main Street",
+        "phone": "+1234567890",
+        "email": "chritypfox@example.com",
+        "sales": 20,
+        "review" : 32,
+        "description": "Christy P.Fox is a seasoned real estate agent with over 10 years of experience in the Springfield area. She specializes in residential properties and has a keen eye for finding the perfect home for her clients."
+      },
+      {
+        "id": 2,
+        "name": "Sandra Smith",
+        "image": "https://i.ibb.co/TbRZZsC/agent2.png",
+        "address": "456 Elm Street",
+        "phone": "+1987654321",
+        "email": "sandra.smith@example.com",
+        "sales": 15,
+        "review" : 17,
+        "description": "Sandra Smith is a dynamic agent known for his energetic approach to selling properties. He focuses on waterfront homes in the Lakeside area, catering to clients looking for luxurious living with stunning views."
+      },
+      {
+        "id": 3,
+        "name": "Michael Johnson",
+        "image": "https://i.ibb.co/6Nv70tt/agent3.png",
+        "address": "789 Oak Street",
+        "phone": "+1122334455",
+        "email": "michael.johnson@example.com",
+        "sales": 25,
+        "review" : 19,
+        "description": "Michael Johnson is a dedicated agent who prides herself on her attention to detail. She specializes in helping first-time homebuyers navigate the market in Mountainview, providing personalized guidance every step of the way."
+      },
+      {
+        "id": 4,
+        "name": "Janish Young",
+        "image": "https://i.ibb.co/H7tvF7r/agent4.png",
+        "address": "321 Maple Street",
+        "phone": "+1555666777",
+        "email": "janish.young@example.com",
+        "sales": 18,
+        "review" : 28,
+        "description": "Janish Young is a knowledgeable agent with a passion for historic properties. He has a deep understanding of the Rivertown area's architecture and history, making him the go-to expert for clients seeking unique homes with character."
+      },
+      {
+        "id": 5,
+        "name": "David Martinez",
+        "image": "https://i.ibb.co/thQ8VGF/agent5.png",
+        "address": "654 Pine Street",
+        "phone": "+1444333222",
+        "email": "david.martinez@example.com",
+        "sales": 22,
+        "review" : 18,
+        "description": "David Martinez is a friendly and approachable agent who values building strong relationships with her clients. She specializes in family-friendly neighborhoods in Hillcrest, helping families find the perfect home to create lasting memories."
+      },
+      {
+        "id": 6,
+        "name": "April Roberson",
+        "image": "https://i.ibb.co/PFXfHM9/agent6.png",
+        "address": "987 Cedar Street",
+        "phone": "+1666777888",
+        "email": "april.roberson@example.com",
+        "sales": 17,
+        "review" : 27,
+        "description": "April Roberson is a top-performing agent known for his negotiation skills and market expertise. He focuses on luxury properties in Meadowbrook, catering to high-net-worth individuals seeking exclusive homes with custom features."
+      }
+    ]
+
+    
+        
+       
+        
+       
+     
+    
+  

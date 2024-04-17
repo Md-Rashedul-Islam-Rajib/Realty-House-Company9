@@ -3,9 +3,10 @@ import { useLoaderData } from "react-router-dom";
 import { CiLocationOn } from "react-icons/ci";
 import { FaLandmark, FaRegCalendarAlt } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";
-
+import 'animate.css';
 import { IoMdArrowRoundBack } from "react-icons/io";
 import { Helmet } from "react-helmet-async";
+import toast, { Toaster } from 'react-hot-toast';
 
 
 const EstateDetails = () => {
@@ -15,10 +16,16 @@ const EstateDetails = () => {
   const estate = data.find((singleData) => singleData.id === intId);
   const { image, price, location, facilities, area,status1,info,agent,address,date_time } = estate;
   
+const calendar = () => {
+  toast.success('Event added to your calender successfully')
+}
+const callToAgent = () => {
+  toast.success('Request send to agent successfully')
+}
 
 
   return (
-    <div>
+    <div className="animate__animated animate__slideInRight">
       <Helmet> 
             <title>Estate Details</title>
           </Helmet>
@@ -67,13 +74,13 @@ const EstateDetails = () => {
                 <h2 className="text-xl font-semibold mb-2">Agent details</h2>
                 <p className="font-medium">{agent}</p>
                 <p className="text-[#646262] mb-2">{address}</p>
-                <button className="btn btn-sm md:btn-md border-[#044FB2] bg-white"><BsFillTelephoneFill /> Contact Agent</button>
+                <button onClick={callToAgent} className="btn btn-sm md:btn-md border-[#044FB2] bg-white"><BsFillTelephoneFill /> Contact Agent</button>
           </div>
           <div className="border border-[#044FB2] rounded-xl p-4">
                 <h2 className="text-xl font-semibold mb-2">Inspection times</h2>
                 <p className="font-medium">Inspections actions are still happening</p>
                 <p className="text-[#646262] mb-2">{date_time}</p>
-                <button className="btn btn-sm md:btn-md border-[#044FB2] bg-white"><FaRegCalendarAlt /> Add to calendar </button>
+                <button onClick={calendar} className="btn btn-sm md:btn-md border-[#044FB2] bg-white"><FaRegCalendarAlt /> Add to calendar </button>
           </div>
           <div>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144626.460781312!2d-91.19032416177033!3d39.67391788481728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886b50bcd9f81b1d%3A0x7e102fcecb32ec72!2sIndiana%2C%20USA!5e0!3m2!1sen!2sbd!4v1713086171424!5m2!1sen!2sbd" width="100%" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className="rounded-xl"></iframe>

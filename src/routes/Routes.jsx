@@ -9,6 +9,8 @@ import UserProfile from "../pages/UserProfile";
 import PrivateRoute from "../components/PrivateRoute";
 import ErrorPage from "../pages/ErrorPage";
 import Services from "../pages/Services";
+import Agents from "../pages/Agents";
+// import Agents from "../pages/Agents";
 
 
 
@@ -30,6 +32,13 @@ export const router = createBrowserRouter([
                 </PrivateRoute>,
                 loader: () => fetch('/data.json'),
 
+            },
+            {
+                path: '/agents',
+                element: <PrivateRoute>
+                    <Agents></Agents>
+                </PrivateRoute>,
+                loader: () => fetch('/agent.json')
             },
             {
                 path: '/services',

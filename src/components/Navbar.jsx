@@ -2,6 +2,7 @@ import { Link, NavLink } from 'react-router-dom';
 import logo from '../assets/logo.png'
 import { useContext } from 'react';
 import { AuthContext } from '../context/AuthProvider';
+import toast, { Toaster } from 'react-hot-toast';
 
 const Navbar = () => {
 
@@ -9,6 +10,7 @@ const Navbar = () => {
   console.log(user);
   const handleSignOut = () => {
     logOutUser()
+    toast.success('Logged out successfully')
     
   }
     const navlinks = <>
@@ -18,6 +20,8 @@ const Navbar = () => {
         {user && <li><NavLink to='/updateprofile'>Update Profile</NavLink></li>
         }
         {user && <li><NavLink to='/userprofile'>User Profile</NavLink></li>
+        }
+        {user && <li><NavLink to='/agents'>Agents</NavLink></li>
         }
         {user && <li><NavLink to='/services'>Services</NavLink></li>
         }
@@ -61,6 +65,7 @@ const Navbar = () => {
       <Link to='/login' className="btn btn-sm md:btn-md bg-[#044FB2] text-white">Login</Link>
     }
   </div>
+  <Toaster></Toaster>
 </div>
     );
 };

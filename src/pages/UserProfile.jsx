@@ -1,15 +1,16 @@
 import { useContext } from "react";
 import { AuthContext } from "../context/AuthProvider";
 import { Helmet } from "react-helmet-async";
+import 'animate.css';
 
 
 const UserProfile = () => {
 
     const {user} = useContext(AuthContext)
     return (
-        <div>
+        <div className="animate__animated animate__slideInUp">
             <Helmet> 
-            <title>Profile</title>
+            <title>Profile | Realty House Company</title>
           </Helmet>
             <div className="max-w-96 mx-auto">
             <img className="rounded-xl" src={user.photoURL} alt="" />

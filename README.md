@@ -15,7 +15,7 @@ features:
 - You can select any real state to know conditions and details about that estate
 - You can differentiate what real estate for sell or rent 
 - You can see the position of the real estate in the map
-- You can call the agent of the real estate 
+- You can find the agents of the real estate 
 - You can add event about the real estate 
 
 Resources:
@@ -25,6 +25,7 @@ Resources:
 - [React Hot Toast](https://react-hot-toast.com/)
 - [Swiper Slider](https://swiperjs.com/react)
 - [React Hook Form](https://swiperjs.com/react)
+- [Animate.CSS](https://animate.style/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [AOS](https://michalsnik.github.io/aos/)
 - [Daisy UI](https://daisyui.com/)

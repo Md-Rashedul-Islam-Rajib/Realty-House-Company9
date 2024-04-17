@@ -69,7 +69,7 @@ const Login = () => {
   return (
     <div className="md:w-2/5 mx-auto border rounded-lg p-2">
       <Helmet>
-        <title>Login</title>
+        <title>Login | Realty House Company</title>
       </Helmet>
 
       <form onSubmit={handleSubmit(onSubmit)}>

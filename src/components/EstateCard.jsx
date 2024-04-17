@@ -32,7 +32,7 @@ const EstateCard = ({ estate }) => {
         <div className="flex flex-col px-4">
           <h2 className="flex-1 text-black text-lg font-bold">{title}</h2>
           <p className="text-black text-sm font-semibold mb-4">{area}</p>
-        {facilities.map((item,idx)=><span className="mb-2 btn btn-xs bg-[#C2E7C9]" key={idx}>{item}</span>)}
+        {facilities.map((item,idx)=><span className="mb-2 btn btn-xs bg-[#C2E7C9] w-3/5" key={idx}>{item}</span>)}
         </div>
 
 

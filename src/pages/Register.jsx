@@ -12,6 +12,7 @@ const Register = () => {
     const {createUser, logOutUser} = useContext(AuthContext);
     const [showPassword, setShowPassword] = useState(false);
     const [error, setError] = useState("");
+    const navigate = useNavigate();
     const {
         register,
         handleSubmit,
@@ -35,10 +36,9 @@ const Register = () => {
             console.log(result.user);
             toast.success('Account created successfully');
             logOutUser()
+            navigate('/login')
             
-        //     setInterval(() => {
-        //       navigate("/login");
-        // }, 2000);
+        
 
         })
         .catch(error=> {
@@ -49,7 +49,7 @@ const Register = () => {
     return (
         <div className='p-2 md:w-2/5 mx-auto border rounded-lg p-2'>
           <Helmet> 
-            <title>Register</title>
+            <title>Register | Realty House Company</title>
           </Helmet>
 <form onSubmit={handleSubmit(onSubmit)}>
 <label className="input input-bordered flex items-center gap-2 mb-2 md:mb-4">

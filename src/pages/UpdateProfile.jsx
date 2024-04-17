@@ -6,7 +6,8 @@ import { AuthContext } from "../context/AuthProvider";
 import { updateProfile } from "firebase/auth";
 import auth from "../firebase/firebase.config";
 import { Helmet } from "react-helmet-async";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import 'animate.css';
 
 const UpdateProfile = () => {
     const {user,setUser} = useContext(AuthContext);
@@ -26,6 +27,7 @@ const navigate = useNavigate();
            photoURL: photo
         }).then(() => {
           setUser({...user,displayName:name,photoURL:photo})
+          toast.success('Profile information updated successfully')
           navigate('/')
         }).catch((error) => {
           // An error occurred
@@ -33,9 +35,9 @@ const navigate = useNavigate();
         });
         }
     return (
-        <div>
+        <div className="animate__animated animate__fadeIn">
           <Helmet> 
-            <title>Update Profile</title>
+            <title>Update Profile | Realty House Company</title>
           </Helmet>
             <div className="text-center text-xl font-bold mb-4">
             <h2>User Information</h2>
