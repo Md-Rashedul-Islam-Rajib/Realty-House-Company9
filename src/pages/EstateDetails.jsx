@@ -47,7 +47,7 @@ const callToAgent = () => {
               </div>
               <div className="my-2">
                 {facilities.map((facility, idx) => (
-                  <span className="mt-2 md:mr-1 btn btn-sm bg-[#C2E7C9]" key={idx}>
+                  <span className="mt-2 md:mr-1 btn btn-sm bg-[#008B9A] text-white" key={idx}>
                     {" "}
                     {facility}
                   </span>

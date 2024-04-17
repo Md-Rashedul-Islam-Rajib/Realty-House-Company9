@@ -19,7 +19,7 @@
   {
     "id": 2,
     "image": "https://i.ibb.co/txDTt3D/2.jpg",
-    "title": "Prime Retail Space",
+    "title": "Prime Retail Store Space",
     "segment_name": "Retail spaces",
     "description": "High-traffic retail space in a bustling shopping district.",
     "price": "$5,000 per month",
@@ -36,7 +36,7 @@
   {
     "id": 3,
     "image": "https://i.ibb.co/sJJC89h/3.jpg",
-    "title": "Spacious Warehouse",
+    "title": "Spacious Warehouse Building",
     "segment_name": "Warehouses",
     "description": "Large warehouse space suitable for storage or distribution.",
     "price": "$3,500,000",
@@ -104,7 +104,7 @@
   {
     "id": 7,
     "image": "https://i.ibb.co/F7DrqyX/7.jpg",
-    "title": "Office Complex",
+    "title": "Office Complex Building",
     "segment_name": "Office buildings",
     "description": "Large office complex with multiple floors and dedicated parking.",
     "price": "$25,000,000",
@@ -121,7 +121,7 @@
   {
     "id": 8,
     "image": "https://i.ibb.co/52RLtgt/8.jpg",
-    "title": "Shopping Mall Space",
+    "title": "Shopping Mall Store Space",
     "segment_name": "Retail spaces",
     "description": "Spacious retail space within a popular shopping mall.",
     "price": "$12,000 per month",
@@ -138,7 +138,7 @@
   {
     "id": 9,
     "image": "https://i.ibb.co/TTCNR57/9.jpg",
-    "title": "Distribution Center",
+    "title": "Distribution Center Space",
     "segment_name": "Warehouses",
     "description": "State-of-the-art distribution center with automated sorting and storage systems.",
     "info": "A warehouse facility specifically designed for the storage and movement of large quantities of goods.Large square footage to accommodate a high volume of inventory.High ceilings for efficient storage using racks and forklifts.Dock doors to facilitate loading and unloading of trucks and trailers.Open floor plan for maneuvering large pallets and equipment.May have designated areas for packing, sorting, and labeling.Might include office space for administrative functions.",

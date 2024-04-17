@@ -19,7 +19,7 @@ const EstateCard = ({ estate }) => {
     <div className="flex justify-center border border-[#dbdce4] mt-8 shadow-xl  md:m-20 lg:m-2 rounded-xl">
       <div>
         <div className="h-60 w-96 relative mx-auto">
-          <img className="object-cover rounded-lg mt-4" src={image} alt="" />
+          <img className="object-cover rounded-lg mt-4 " src={image} alt="" />
           <div className="text-black font-bold flex items-center gap-1 absolute top-2 left-2 btn btn-sm glass">
             <CiLocationOn className="text-xl" /> {location}
           </div>
@@ -32,7 +32,7 @@ const EstateCard = ({ estate }) => {
         <div className="flex flex-col px-4">
           <h2 className="flex-1 text-black text-lg font-bold">{title}</h2>
           <p className="text-black text-sm font-semibold mb-4">{area}</p>
-        {facilities.map((item,idx)=><span className="mb-2 btn btn-xs bg-[#C2E7C9] w-3/5" key={idx}>{item}</span>)}
+        {facilities.map((item,idx)=><span className="mb-2 btn btn-xs bg-[#008B9A] text-white w-3/5" key={idx}>{item}</span>)}
         </div>
 
 
